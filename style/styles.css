@@ -12,8 +12,13 @@
 /* Common Styles */
 .display-flex{
     display: flex;
+    
 }
-
+ body{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+ } 
 
 /* Navbar Styles */
 
@@ -30,7 +35,7 @@
     
 }
 .navbar .banner{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 
 }
@@ -64,4 +69,28 @@
 
 .text-color_secondary{
     color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+
 } 
+/*  Banner Styles */
+.banner{
+    max-width: 1140px;
+    
+}
+
+.banner-title{
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.banner-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.tagline{
+    color:#E95A08
+}
