@@ -18,6 +18,11 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.center-text{
+    text-align: center;
+
+}
 /*  body{
     max-width: 1140px;
     margin: 0 auto;
@@ -66,7 +71,7 @@
 }
 .text-secondary{
     color: rgba(137, 135, 161, 1); 
-  
+    font-size: 22px;
     
 }
 .text-color_primary{
@@ -212,11 +217,50 @@
   
 }
 
+/* Latest Deal Styles */
+#box-width{
+    max-width: 888px;
+    margin: 0 auto;
+}
+.deal-content{
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.latest-deals{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.double-image, .deal-zabo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.double-image{
+gap: 20px;
+}
+.double-image img {
+  flex: 1;
+  height: 50%; 
+  width: 100%;
+  
+  border-radius: 10px;
+}
+
+.deal-zabo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 /* Footer Styles */
 .footer{
-    margin-top: 40px;
-
+    margin-top: 30px;
+    
 }
 .footer-container{
     max-width: 359px;
