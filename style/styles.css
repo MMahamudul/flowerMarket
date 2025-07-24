@@ -70,6 +70,7 @@
 .text-color_secondary{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
+    
 
 } 
 /*  Banner Styles */
@@ -98,7 +99,7 @@
 
 .plants-title{
 
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
 
 }
@@ -130,4 +131,19 @@
 .flower-price{
     font-size:1.25em;
     font-weight:700;
+}
+
+/* Plant Lover Section Styles */
+
+.plant-lover-container{
+    margin-top: 10em;
+    align-items: center;
+}
+.lover-content{
+    margin-left: 70px;
+}
+.extra-styles{
+    margin-bottom: 5px;
+    text-align: justify;
+
 }
