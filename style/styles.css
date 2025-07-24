@@ -139,11 +139,17 @@
     margin-top: 10em;
     align-items: center;
 }
-.lover-content{
-    margin-left: 70px;
-}
+
 .extra-styles{
-    margin-bottom: 5px;
+    margin-bottom: 7.5px;
     text-align: justify;
 
+}
+.badge{
+    height:300px ;
+    width: 300px;
+    margin-bottom: -165px;
+    margin-left: 340px;
+    position: relative; 
+    z-index: 1;
 }
