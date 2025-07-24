@@ -94,3 +94,40 @@
 .tagline{
     color:#E95A08
 }
+/* Our Plants Section Styles */
+
+.plants-title{
+
+    font-size: 3em;
+    font-weight: 700;
+
+}
+.our-plant-content{
+    max-width: 888px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plants-title{
+    margin-bottom: 10px;
+}
+.plants-description{
+    font-size: 1.3em;
+}
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.flower-card p{
+    text-align: center;
+}
+.card-btn{
+    width: 100%;
+    background-color: #E95A08;
+    color: white;
+    padding: 10px;
+}
+.flower-price{
+    font-size:1.25em;
+    font-weight:700;
+}
