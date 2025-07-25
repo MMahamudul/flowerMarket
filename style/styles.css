@@ -318,7 +318,7 @@ gap: 20px;
 /* Responsive Media Query */
 
 @media screen and (max-width:576px) {
-
+   
     nav .dis-hidden{
         display: none;
     }
@@ -328,7 +328,62 @@ gap: 20px;
     }
     .banner-content{
         flex-direction: column-reverse;
+        padding: 5px;
         
     }
+    .our-plant-content{
+        text-align: center;
+         padding: 5px;
+
+    }
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+     
+
+}
+.plant-lover-container{
+    flex-direction: column;
+}
+.badge{
+    display: none;
+}
+.plants-title, .banner-title, .plants-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.extra-styles{
+    padding: 5px;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.brunch-container{
+    overflow: hidden;
+   
+}
+.field{
+    width: 50%;
+    margin-left: 70px;
+    
+
+}
+.footer-container{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.footer{
+    flex-direction: column;
+    padding: 5px;
+}
+.footer-links{
+    margin-left: 0px;
+}
+.footer-icons{
+    margin-left: 10px;
+    padding-left: 10px;
+}
 
 }
